@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="review/styles.css">
+    <title>Form Reviews</title>
+</head>
+<body>
+    
+    <section class="navigation-section">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="#">Alek's Clothing</a></label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="wrapper">
+        <h3>How was your experience</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i for="star" class='bx bx-star star' style="--i: 0;" ></i>
+                <i for="star" class='bx bx-star star' style="--i: 1;" ></i>
+                <i for="star" class='bx bx-star star' style="--i: 2;" ></i>
+                <i for="star" class='bx bx-star star' style="--i: 3;" ></i>
+                <i for="star" class='bx bx-star star' style="--i: 4;" ></i>
+            </div>
+            <textarea name="opinion" id="opinion" cols="30" rows="5" placeholder="Your response..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+    <section class="testimonials">
+        <div class="testimonial-heading">
+            <span>Reviews</span>
+            <h1>Client Says</h1>
+        </div>
+
+        <div class="testimonial-box-container">
+
+            <!---comment 1-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug1.webp" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Ada Wong</strong>
+                            <span>@adawong</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>The shirt is a perfect blend of style and comfort. The fabric feels soft against the skin, making it ideal for all-day wear. The classic design ensures versatility, making it a wardrobe staple.</p>
+                </div>
+            </div>
+
+            <!---comment 2-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug2.webp" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Claire Redfield</strong>
+                            <span>@clairedfield</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>                        
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>This shirt embodies the essence of minimalistic style. The clean lines and subtle details make it a standout piece without being too flashy. It's a great choice for those who appreciate simplicity with a touch of sophistication.</p>
+                </div>
+            </div>
+
+            <!---comment 3-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug3.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Rosemary Winters</strong>
+                            <span>@rosewinters</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>The breathable fabric of this shirt makes it a top pick for warm weather. It keeps you cool and comfortable while exuding an elegant charm. Perfect for both casual and semi-formal occasions.</p>
+                </div>
+            </div>
+
+            <!---comment 4-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug4.avif" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Donna Beneviento</strong>
+                            <span>@donnabeneviento</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>I'm impressed by the durability of this shirt. After several washes, it still looks as good as new. The high-quality stitching and fabric make it a reliable choice for long-term use.</p>
+                </div>
+            </div>
+
+            <!---comment 5-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug5.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Chris Redfield</strong>
+                            <span>@chrisredfield</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>This shirt is a true wardrobe essential. Its versatility allows it to seamlessly transition from a casual day out to a more formal setting. Pair it with jeans or dress it up with trousers  – it's a must-have piece.</p>
+                </div>
+            </div>
+
+            <!---comment 6-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug6.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Leon Kennedy</strong>
+                            <span>@leonkennedy</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>The shirt effortlessly combines chic and trendy elements. The unique design details set it apart from ordinary shirts. It's a great way to add a touch of fashion-forward flair to your ensemble.</p>
+                </div>
+            </div>
+
+            <!---comment 7-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug7.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Ethan Winters</strong>
+                            <span>@ethanwinters</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>The fit of this shirt is spot-on. It's tailored just right – not too tight, not too loose. The attention to detail in sizing ensures a flattering silhouette. Comfortable without compromising style.</p>
+                </div>
+            </div>
+            <!---comment 8-->
+            <div class="testimonial-box">
+
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/mug8.jpg" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Karl Heisenberg</strong>
+                            <span>@karlheisenberg</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>The shirt exceeded my expectations in terms of quality. The fabric is luxurious, and the craftsmanship is impeccable. It's a statement piece that adds sophistication to any outfit.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="review/script.js"></script>
+</body>
+</html>
